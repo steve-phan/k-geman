@@ -1,6 +1,5 @@
 package com.kgeman.presentation.fragments
 
-import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -182,8 +181,10 @@ class QuizFragment : Fragment() {
             )
         } else {
             binding.feedbackText.text = "✗ Falsch! Richtige Antwort: ${question?.correctAnswer}"
-            binding.feedbackText.setTextColor(Color.parseColor("#D32F2F"))
-            binding.feedbackCard.setCardBackgroundColor(Color.parseColor("#FFEBEE"))
+            binding.feedbackText.setTextColor(ContextCompat.getColor(requireContext(), R.color.quiz_error))
+            binding.feedbackCard.setCardBackgroundColor(
+                ContextCompat.getColor(requireContext(), R.color.quiz_error_background)
+            )
         }
         
         binding.explanationText.text = question?.explanation ?: ""
