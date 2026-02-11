@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">K-Geman</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_verbs">Verben</string>
+    <string name="nav_articles">Artikel</string>
+    <string name="nav_clauses">Sätze</string>
+    
+    <!-- Verbs Screen -->
+    <string name="verbs_title">Verben mit Präpositionen</string>
+    <string name="verb_label">Verb:</string>
+    <string name="preposition_label">Präposition:</string>
+    <string name="case_label">Kasus:</string>
+    <string name="example_label">Beispiel:</string>
+    <string name="translation_label">Übersetzung:</string>
+    
+    <!-- Articles Screen -->
+    <string name="articles_title">Artikel (der/die/das)</string>
+    <string name="noun_label">Substantiv:</string>
+    <string name="article_label">Artikel:</string>
+    <string name="gender_label">Geschlecht:</string>
+    <string name="rule_hint_label">Regel:</string>
+    
+    <!-- Clauses Screen -->
+    <string name="clauses_title">Haupt- und Nebensätze</string>
+    <string name="main_clause_label">Hauptsatz:</string>
+    <string name="sub_clause_label">Nebensatz:</string>
+    <string name="conjunction_label">Konjunktion:</string>
+    <string name="explanation_label">Erklärung:</string>
+    
+    <!-- Common -->
+    <string name="audio_button">Audio abspielen</string>
+    <string name="offline_indicator">Offline-Modus</string>
+    <string name="syncing">Synchronisierung läuft…</string>
+    <string name="sync_complete">Synchronisierung abgeschlossen</string>
+    <string name="sync_error">Synchronisierungsfehler</string>
+    <string name="no_data">Keine Daten verfügbar</string>
+    <string name="loading">Laden…</string>
+    
+    <!-- Privacy -->
+    <string name="privacy_notice">Diese App sammelt keine persönlichen Daten.</string>
+</resources>
