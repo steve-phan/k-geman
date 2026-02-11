@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">K-Geman</string>
+    <string name="app_subtitle">German Grammar Learning</string>
+    
+    <!-- Menu items -->
+    <string name="verbs_with_prepositions">Verben mit Präpositionen</string>
+    <string name="articles">Artikel (der/die/das)</string>
+    <string name="clauses">Haupt- und Nebensätze</string>
+    
+    <!-- Headers -->
+    <string name="verbs_header">Learn German verbs with their prepositions and required cases</string>
+    <string name="articles_header">Practice German articles: der (masculine), die (feminine), das (neuter)</string>
+    <string name="clauses_header">Master German sentence structure: main clauses and subordinate clauses</string>
+</resources>
