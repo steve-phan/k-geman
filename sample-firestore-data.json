@@ -1,0 +1,184 @@
+{
+  "collections": {
+    "verbs_prepositions": [
+      {
+        "verb": "denken",
+        "preposition": "an",
+        "case": "Akkusativ",
+        "example_de": "Ich denke an dich.",
+        "example_en": "I'm thinking of you."
+      },
+      {
+        "verb": "warten",
+        "preposition": "auf",
+        "case": "Akkusativ",
+        "example_de": "Ich warte auf den Bus.",
+        "example_en": "I'm waiting for the bus."
+      },
+      {
+        "verb": "sich freuen",
+        "preposition": "über",
+        "case": "Akkusativ",
+        "example_de": "Ich freue mich über das Geschenk.",
+        "example_en": "I'm happy about the gift."
+      },
+      {
+        "verb": "sprechen",
+        "preposition": "mit",
+        "case": "Dativ",
+        "example_de": "Ich spreche mit dem Lehrer.",
+        "example_en": "I'm talking with the teacher."
+      },
+      {
+        "verb": "träumen",
+        "preposition": "von",
+        "case": "Dativ",
+        "example_de": "Ich träume von einem Haus.",
+        "example_en": "I'm dreaming of a house."
+      },
+      {
+        "verb": "sich interessieren",
+        "preposition": "für",
+        "case": "Akkusativ",
+        "example_de": "Ich interessiere mich für Musik.",
+        "example_en": "I'm interested in music."
+      },
+      {
+        "verb": "sich beschäftigen",
+        "preposition": "mit",
+        "case": "Dativ",
+        "example_de": "Ich beschäftige mich mit Deutsch.",
+        "example_en": "I'm dealing with German."
+      },
+      {
+        "verb": "bitten",
+        "preposition": "um",
+        "case": "Akkusativ",
+        "example_de": "Ich bitte um Hilfe.",
+        "example_en": "I'm asking for help."
+      }
+    ],
+    "articles": [
+      {
+        "noun": "Mann",
+        "article": "der",
+        "gender": "Maskulin",
+        "rule_hint": "Male persons and professions are usually masculine",
+        "example": "der Mann (the man)"
+      },
+      {
+        "noun": "Frau",
+        "article": "die",
+        "gender": "Feminin",
+        "rule_hint": "Female persons and professions are usually feminine",
+        "example": "die Frau (the woman)"
+      },
+      {
+        "noun": "Kind",
+        "article": "das",
+        "gender": "Neutrum",
+        "rule_hint": "Diminutives ending in -chen or -lein are neuter",
+        "example": "das Kind (the child)"
+      },
+      {
+        "noun": "Tisch",
+        "article": "der",
+        "gender": "Maskulin",
+        "rule_hint": "Nouns ending in -isch are usually masculine",
+        "example": "der Tisch (the table)"
+      },
+      {
+        "noun": "Universität",
+        "article": "die",
+        "gender": "Feminin",
+        "rule_hint": "Nouns ending in -tät are usually feminine",
+        "example": "die Universität (the university)"
+      },
+      {
+        "noun": "Mädchen",
+        "article": "das",
+        "gender": "Neutrum",
+        "rule_hint": "Nouns ending in -chen are neuter (diminutive)",
+        "example": "das Mädchen (the girl)"
+      },
+      {
+        "noun": "Auto",
+        "article": "das",
+        "gender": "Neutrum",
+        "rule_hint": "Nouns ending in -o are often neuter",
+        "example": "das Auto (the car)"
+      },
+      {
+        "noun": "Freiheit",
+        "article": "die",
+        "gender": "Feminin",
+        "rule_hint": "Nouns ending in -heit are always feminine",
+        "example": "die Freiheit (the freedom)"
+      }
+    ],
+    "clauses": [
+      {
+        "main_clause": "Ich bleibe zu Hause",
+        "sub_clause": "weil es regnet",
+        "conjunction": "weil",
+        "rule_explanation": "The verb moves to the end in subordinate clauses with 'weil' (because)"
+      },
+      {
+        "main_clause": "Ich denke",
+        "sub_clause": "dass du Recht hast",
+        "conjunction": "dass",
+        "rule_explanation": "The verb moves to the end in subordinate clauses with 'dass' (that)"
+      },
+      {
+        "main_clause": "Ich gehe spazieren",
+        "sub_clause": "obwohl es kalt ist",
+        "conjunction": "obwohl",
+        "rule_explanation": "The verb moves to the end in subordinate clauses with 'obwohl' (although)"
+      },
+      {
+        "main_clause": "Ich lerne Deutsch",
+        "sub_clause": "damit ich in Deutschland arbeiten kann",
+        "conjunction": "damit",
+        "rule_explanation": "The verb moves to the end in subordinate clauses with 'damit' (so that)"
+      },
+      {
+        "main_clause": "Ich rufe dich an",
+        "sub_clause": "wenn ich zu Hause bin",
+        "conjunction": "wenn",
+        "rule_explanation": "The verb moves to the end in subordinate clauses with 'wenn' (when/if)"
+      },
+      {
+        "main_clause": "Ich esse nichts",
+        "sub_clause": "bevor ich Sport mache",
+        "conjunction": "bevor",
+        "rule_explanation": "The verb moves to the end in subordinate clauses with 'bevor' (before)"
+      },
+      {
+        "main_clause": "Ich war müde",
+        "sub_clause": "nachdem ich gelaufen war",
+        "conjunction": "nachdem",
+        "rule_explanation": "The verb moves to the end in subordinate clauses with 'nachdem' (after)"
+      },
+      {
+        "main_clause": "Ich lerne viel",
+        "sub_clause": "während meine Freunde spielen",
+        "conjunction": "während",
+        "rule_explanation": "The verb moves to the end in subordinate clauses with 'während' (while)"
+      }
+    ]
+  },
+  "instructions": {
+    "upload_method": "Firebase Console",
+    "steps": [
+      "1. Go to Firebase Console (console.firebase.google.com)",
+      "2. Select your project",
+      "3. Go to Firestore Database",
+      "4. For each collection (verbs_prepositions, articles, clauses):",
+      "   a. Click 'Start collection'",
+      "   b. Enter collection name",
+      "   c. Add documents from the arrays above",
+      "   d. Let Firebase auto-generate document IDs"
+    ],
+    "note": "This sample data provides 8 entries per category for initial testing"
+  }
+}
