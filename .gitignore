@@ -37,10 +37,21 @@ captures/
 
 # IntelliJ
 *.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/caches
+.idea/modules.xml
+.idea/.name
+.idea/compiler.xml
+.idea/misc.xml
+.idea/deploymentTargetDropDown.xml
+.idea/vcs.xml
+.DS_Store
 
 # Keystore files
 *.jks
@@ -51,7 +62,8 @@ render.experimental.xml
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
-google-services.json
+# Comment this line if you want to keep google-services.json in version control
+# google-services.json
 
 # Freeline
 freeline.py
@@ -73,6 +85,7 @@ lint/intermediates/
 lint/generated/
 lint/outputs/
 lint/tmp/
+*.lint
 
 # Android Profiling
 *.hprof
