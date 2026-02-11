@@ -140,7 +140,7 @@ class QuizFragment : Fragment() {
         
         // Reset button colors
         radioButtons.forEach { button ->
-            button.setTextColor(ContextCompat.getColor(requireContext(), R.color.md_theme_onSurface))
+            button.setTextColor(ContextCompat.getColor(requireContext(), R.color.md_theme_on_surface))
             button.isEnabled = true
         }
         
@@ -178,7 +178,7 @@ class QuizFragment : Fragment() {
             binding.feedbackText.text = "✓ Richtig!"
             binding.feedbackText.setTextColor(ContextCompat.getColor(requireContext(), R.color.md_theme_primary))
             binding.feedbackCard.setCardBackgroundColor(
-                ContextCompat.getColor(requireContext(), R.color.md_theme_primaryContainer)
+                ContextCompat.getColor(requireContext(), R.color.md_theme_primary_container)
             )
         } else {
             binding.feedbackText.text = "✗ Falsch! Richtige Antwort: ${question?.correctAnswer}"
