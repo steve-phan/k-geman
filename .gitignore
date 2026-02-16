@@ -89,3 +89,6 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+
+# META-INF
+META-INF/

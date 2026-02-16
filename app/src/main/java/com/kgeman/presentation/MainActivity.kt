@@ -14,6 +14,7 @@ import com.kgeman.data.SyncManager
 import com.kgeman.databinding.ActivityMainBinding
 import com.kgeman.presentation.fragments.ArticlesFragment
 import com.kgeman.presentation.fragments.ClausesFragment
+import com.kgeman.presentation.fragments.QuizFragment
 import com.kgeman.presentation.fragments.VerbsFragment
 import kotlinx.coroutines.launch
 
@@ -55,6 +56,10 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.navigation_clauses -> {
                     loadFragment(ClausesFragment())
+                    true
+                }
+                R.id.navigation_quiz -> {
+                    loadFragment(QuizFragment())
                     true
                 }
                 else -> false

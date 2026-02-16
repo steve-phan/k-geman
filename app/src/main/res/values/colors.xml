@@ -17,4 +17,8 @@
     <color name="md_theme_on_secondary">#FFFFFF</color>
     <color name="md_theme_surface">#FDFBFF</color>
     <color name="md_theme_on_surface">#1A1C1E</color>
+    
+    <!-- Quiz feedback colors -->
+    <color name="quiz_error">#D32F2F</color>
+    <color name="quiz_error_background">#FFEBEE</color>
 </resources>

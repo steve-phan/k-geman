@@ -7,6 +7,7 @@
     <string name="nav_verbs">Verben</string>
     <string name="nav_articles">Artikel</string>
     <string name="nav_clauses">Sätze</string>
+    <string name="nav_quiz">Quiz</string>
     
     <!-- Verbs Screen -->
     <string name="verbs_title">Verben mit Präpositionen</string>

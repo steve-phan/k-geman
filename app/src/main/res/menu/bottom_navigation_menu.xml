@@ -12,4 +12,8 @@
         android:id="@+id/navigation_clauses"
         android:icon="@android:drawable/ic_menu_sort_by_size"
         android:title="@string/nav_clauses" />
+    <item
+        android:id="@+id/navigation_quiz"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/nav_quiz" />
 </menu>

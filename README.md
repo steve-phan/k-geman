@@ -46,17 +46,26 @@ app/
 - Saved to Room Database for offline access
 - Weekly sync for content updates via WorkManager
 
-### 2. Three Learning Sections
+### 2. Four Learning Sections
 - **Verbs:** Learn German verbs with required prepositions and cases
 - **Articles:** Master der/die/das article rules with examples
 - **Clauses:** Understand main and subordinate clause structures
+- **Quiz:** Test your knowledge with interactive multiple-choice questions
 
-### 3. Material 3 Design
-- Bottom navigation for easy section switching
+### 3. Interactive Quiz Mode
+- Timer to track quiz duration
+- Progress bar showing completion status
+- Navigation controls (Back, Next, Repeat)
+- Contextual hints for each question
+- Immediate feedback on answers
+- Mixed questions from all content types
+
+### 4. Material 3 Design
+- Bottom navigation for easy section switching (Verbs, Articles, Clauses, Quiz)
 - Card-based list views
 - Offline indicator when no internet connection
 
-### 4. Privacy-Focused
+### 5. Privacy-Focused
 - **Zero personal data collection**
 - No user authentication required
 - Read-only Firestore access
@@ -186,6 +195,12 @@ implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 ### Privacy Policy
 See [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
 
+## Quiz Feature
+
+For detailed documentation about the quiz feature, see:
+- [QUIZ_FEATURE.md](QUIZ_FEATURE.md) - Feature documentation and implementation details
+- [QUIZ_UI_MOCKUP.md](QUIZ_UI_MOCKUP.md) - UI design and interaction guide
+
 ## Project Structure Details
 
 ### Data Flow
@@ -246,7 +261,8 @@ The app gracefully handles empty collections:
 - [ ] Audio pronunciation (TTS or pre-recorded)
 - [ ] Search functionality
 - [ ] Favorites/bookmarks
-- [ ] Quiz mode
+- [x] Quiz mode ✅ (Implemented!)
+- [ ] Quiz score tracking and history
 - [ ] Progress tracking
 - [ ] Dark mode support
 
